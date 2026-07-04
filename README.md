@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pokemon App
 
-## Getting Started
+เว็บไซต์แสดงข้อมูล Pokémon โดยใช้ข้อมูลจาก PokeAPI พัฒนาด้วย Next.js และ Material UI
 
-First, run the development server:
+---
+
+## ผู้พัฒนา
+
+- ชื่อ: นายณัฐภูมิ แสนศิริโภค
+- รหัสนักศึกษา: 673450189-9
+
+---
+
+## รายวิชา
+
+Front-end Web Programming
+
+---
+
+## หลักสูตร
+
+วิทยาการคอมพิวเตอร์
+
+---
+
+## มหาวิทยาลัย
+
+มหาวิทยาลัยขอนแก่น วิทยาเขตหนองคาย
+
+---
+
+# Features
+
+- แสดงรายชื่อ Pokémon ทั้งหมด 1351 ตัว
+- โหลดข้อมูลแบบ Load More (Pagination)
+- แสดงรายละเอียด Pokémon
+  - รูปภาพ
+  - ชื่อ
+  - ประเภท (Type)
+  - Base Stats
+  - Evolution Chain
+  - Pokémon Cry
+- ใช้ Material UI
+- ใช้ React Skeleton ระหว่างโหลดข้อมูล
+- Responsive Design
+- หน้า About This Project
+
+---
+
+# Technology
+
+- Next.js 16
+- React
+- TypeScript
+- Material UI (MUI)
+- PokeAPI
+- Vercel
+
+---
+
+# API
+
+https://pokeapi.co/
+
+---
+
+# Installation
 
 ```bash
+git clone https://github.com/Nattaphoom-Saensiriphokh/Pokeball.git
+
+cd Pokeball
+
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+# Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# GitHub Repository
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+https://github.com/Nattaphoom-Saensiriphokh/Pokeball
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+# Live Demo
+
+https://xxxxxxxx.vercel.app
+
+---
+
+# Screenshots
+
+## Home
+
+(ใส่รูปหน้าแรก)
+
+## Pokemon Detail
+
+(ใส่รูปหน้ารายละเอียด)
+
+## About This Project
+
+(ใส่รูปหน้า About)
+
+---
+
+# เครดิต
+
+ข้อมูลทั้งหมดมาจาก
+
+https://pokeapi.co/
