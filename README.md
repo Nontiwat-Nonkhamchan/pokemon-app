@@ -31,30 +31,30 @@ Front-end Web Programming
 
 # Features
 
-- แสดงรายชื่อ Pokémon ทั้งหมด 1351 ตัว
-- โหลดข้อมูลแบบ Load More (Pagination)
-- แสดงรายละเอียด Pokémon
+1. แสดงรายชื่อ Pokémon ทั้งหมด 1351 ตัว
+2. โหลดข้อมูลแบบ Load More (Pagination)
+3. แสดงรายละเอียด Pokémon
   - รูปภาพ
   - ชื่อ
   - ประเภท (Type)
   - Base Stats
   - Evolution Chain
   - Pokémon Cry
-- ใช้ Material UI
-- ใช้ React Skeleton ระหว่างโหลดข้อมูล
-- Responsive Design
-- หน้า About This Project
+4. ใช้ Material UI
+5. ใช้ React Skeleton ระหว่างโหลดข้อมูล
+6. Responsive Design
+7. หน้า About This Project
 
 ---
 
 # Technology
 
-- Next.js 16
-- React
-- TypeScript
-- Material UI (MUI)
-- PokeAPI
-- Vercel
+1. Next.js 16
+2. React
+3. TypeScript
+4. Material UI (MUI)
+5. PokeAPI
+6. Vercel
 
 ---
 
@@ -100,7 +100,7 @@ Vercel
 
 # Live Demo
 
-https://xxxxxxxx.vercel.app
+pokemon-app-one-zeta.vercel.app
 
 ---
 
