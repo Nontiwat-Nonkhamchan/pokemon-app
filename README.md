@@ -6,8 +6,8 @@
 
 ## ผู้พัฒนา
 
-- ชื่อ: นายณัฐภูมิ แสนศิริโภค
-- รหัสนักศึกษา: 673450189-9
+- ชื่อ: นายนนทิวรรธน์ นนท์คำจันทร์
+- รหัสนักศึกษา: 673450196-2
 
 ---
 
@@ -94,7 +94,7 @@ Vercel
 
 # GitHub Repository
 
-https://github.com/Nattaphoom-Saensiriphokh/Pokeball
+[https://github.com/Nontiwat-Nonkhamchan/pokemon-app](https://github.com/Nontiwat-Nonkhamchan/pokemon-app)
 
 ---
 
@@ -108,20 +108,21 @@ https://xxxxxxxx.vercel.app
 
 ## Home
 
-(ใส่รูปหน้าแรก)
+<img width="1919" height="946" alt="image" src="https://github.com/user-attachments/assets/87a2be41-bab3-4c87-adbe-2196498be3e8" />
+
 
 ## Pokemon Detail
 
-(ใส่รูปหน้ารายละเอียด)
+<img width="1234" height="938" alt="image" src="https://github.com/user-attachments/assets/2e88151c-6c9f-4f6a-a9d7-96ca05973057" />
+
 
 ## About This Project
 
-(ใส่รูปหน้า About)
+<img width="903" height="903" alt="image" src="https://github.com/user-attachments/assets/1ec04807-8b0b-46d9-9ba3-3e06aaf13e67" />
+
 
 ---
 
-# เครดิต
-
-ข้อมูลทั้งหมดมาจาก
+# เว็ปอ้างอิง
 
 https://pokeapi.co/
