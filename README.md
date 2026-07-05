@@ -67,7 +67,6 @@ https://pokeapi.co/
 # Installation
 
 ```bash
-git clone https://github.com/Nattaphoom-Saensiriphokh/Pokeball.git
 
 cd Pokeball
 
