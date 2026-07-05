@@ -88,10 +88,18 @@ export default function PokemonDetailPage({
   return (
     <Container sx={{ mt: 5 }}>
       <Card
-        sx={{
-        borderRadius:5,
-        boxShadow:6
-         }}
+  sx={{
+    borderRadius: 5,
+    background: "linear-gradient(145deg,#ffffff,#f5f5f5)",
+    transition: "0.3s",
+    boxShadow: 3,
+    "&:hover": {
+      transform: "translateY(-8px) scale(1.03)",
+      boxShadow: 10,
+      background:
+        "linear-gradient(145deg,#FFFDE7,#E3F2FD)",
+    },
+  }}
          >
         <CardContent>
 
@@ -104,13 +112,16 @@ export default function PokemonDetailPage({
             }}
           />
 
-          <Typography
-            variant="h3"
-            align="center"
-            sx={{ textTransform: "capitalize", mt: 2 }}
-          >
-            {pokemon.name}
-          </Typography>
+<Typography
+  variant="h6"
+  sx={{
+    textTransform: "capitalize",
+    fontWeight: "bold",
+    color: "#1565C0",
+  }}
+>
+  {pokemon.name}
+</Typography>
 
           <Typography variant="h5" sx={{ mt: 3 }}>
             ประเภท

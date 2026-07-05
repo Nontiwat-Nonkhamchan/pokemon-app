@@ -90,17 +90,46 @@ setPokemonList((prev) => {
   };
 
   return (
-    <Container sx={{ py: 4 }}>
-      <Typography variant="h3" align="center" gutterBottom>
-        Pokemon App
-      </Typography>
+    <Container   maxWidth="lg"
+  sx={{
+    py: 4,
+    minHeight: "100vh",
+    background:
+      "linear-gradient(180deg, #FFF9C4 0%, #BBDEFB 50%, #E3F2FD 100%)",
+  }}>
+<Box>
+  <Typography
+    variant="h2"
+    sx={{
+      fontWeight: "bold",
+      color: "#1565C0",
+      textShadow: "2px 2px 5px rgba(0,0,0,0.2)",
+    }}
+  >
+    Pokémon App
+  </Typography>
+
+  <Typography color="text.secondary">
+    Explore all Pokémon from PokeAPI
+  </Typography>
+</Box>
 
       {/* 🔥 About Page Button */}
-      <Box sx={{ textAlign: "center", mb: 2 }}>
-        <Button component={Link} href="/aboutthisproject" variant="outlined">
-          About This Project
-        </Button>
-      </Box>
+<Button
+  component={Link}
+  href="/aboutthisproject"
+  variant="contained"
+  sx={{textAlign: "center",
+    backgroundColor: "#1976D2",
+    borderRadius: 5,
+    px: 3,
+    "&:hover": {
+      backgroundColor: "#0D47A1",
+    },
+  }}
+>
+  About This Project
+</Button>
 
       <Typography align="center" sx={{ mb: 3 }}>
         แสดง {pokemonList.length} / {count} ตัว
@@ -161,13 +190,23 @@ boxShadow:8
         {loading && pokemonList.length === 0 ? (
           <Typography>Loading...</Typography>
         ) : pokemonList.length < count ? (
-          <Button
-            variant="contained"
-            onClick={fetchPokemon}
-            disabled={loadingMore}
-          >
-            {loadingMore ? "Loading..." : "Load More"}
-          </Button>
+<Button
+  variant="contained"
+  onClick={fetchPokemon}
+  disabled={loadingMore}
+  sx={{
+    px: 5,
+    py: 1.5,
+    borderRadius: 10,
+    background: "linear-gradient(90deg,#1976D2,#42A5F5)",
+    fontWeight: "bold",
+    "&:hover": {
+      background: "linear-gradient(90deg,#1565C0,#1E88E5)",
+    },
+  }}
+>
+  {loadingMore ? "Loading..." : "Load More"}
+</Button>
         ) : (
           <Typography>โหลดครบทั้งหมดแล้ว ({count} ตัว)</Typography>
         )}
