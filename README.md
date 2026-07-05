@@ -6,8 +6,8 @@
 
 ## ผู้พัฒนา
 
-- ชื่อ: นายณัฐภูมิ แสนศิริโภค
-- รหัสนักศึกษา: 673450189-9
+- ชื่อ: นายนนทิวรรธน์ นนท์คำจันทร์
+- รหัสนักศึกษา: 673450196-2
 
 ---
 
@@ -31,30 +31,30 @@ Front-end Web Programming
 
 # Features
 
-- แสดงรายชื่อ Pokémon ทั้งหมด 1351 ตัว
-- โหลดข้อมูลแบบ Load More (Pagination)
-- แสดงรายละเอียด Pokémon
+1. แสดงรายชื่อ Pokémon ทั้งหมด 1351 ตัว
+2. โหลดข้อมูลแบบ Load More (Pagination)
+3. แสดงรายละเอียด Pokémon
   - รูปภาพ
   - ชื่อ
   - ประเภท (Type)
   - Base Stats
   - Evolution Chain
   - Pokémon Cry
-- ใช้ Material UI
-- ใช้ React Skeleton ระหว่างโหลดข้อมูล
-- Responsive Design
-- หน้า About This Project
+4. ใช้ Material UI
+5. ใช้ React Skeleton ระหว่างโหลดข้อมูล
+6. Responsive Design
+7. หน้า About This Project
 
 ---
 
 # Technology
 
-- Next.js 16
-- React
-- TypeScript
-- Material UI (MUI)
-- PokeAPI
-- Vercel
+1. Next.js 16
+2. React
+3. TypeScript
+4. Material UI (MUI)
+5. PokeAPI
+6. Vercel
 
 ---
 
@@ -94,13 +94,13 @@ Vercel
 
 # GitHub Repository
 
-https://github.com/Nattaphoom-Saensiriphokh/Pokeball
+[https://github.com/Nontiwat-Nonkhamchan/pokemon-app](https://github.com/Nontiwat-Nonkhamchan/pokemon-app)
 
 ---
 
 # Live Demo
 
-https://xxxxxxxx.vercel.app
+[pokemon-app-one-zeta.vercel.app](https://pokemon-app-one-zeta.vercel.app/)
 
 ---
 
@@ -108,20 +108,21 @@ https://xxxxxxxx.vercel.app
 
 ## Home
 
-(ใส่รูปหน้าแรก)
+<img width="1919" height="946" alt="image" src="https://github.com/user-attachments/assets/87a2be41-bab3-4c87-adbe-2196498be3e8" />
+
 
 ## Pokemon Detail
 
-(ใส่รูปหน้ารายละเอียด)
+<img width="1234" height="938" alt="image" src="https://github.com/user-attachments/assets/2e88151c-6c9f-4f6a-a9d7-96ca05973057" />
+
 
 ## About This Project
 
-(ใส่รูปหน้า About)
+<img width="903" height="903" alt="image" src="https://github.com/user-attachments/assets/1ec04807-8b0b-46d9-9ba3-3e06aaf13e67" />
+
 
 ---
 
-# เครดิต
-
-ข้อมูลทั้งหมดมาจาก
+# เว็ปอ้างอิง
 
 https://pokeapi.co/
