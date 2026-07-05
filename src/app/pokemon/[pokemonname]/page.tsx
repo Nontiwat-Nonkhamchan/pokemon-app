@@ -87,7 +87,12 @@ export default function PokemonDetailPage({
 
   return (
     <Container sx={{ mt: 5 }}>
-      <Card>
+      <Card
+        sx={{
+        borderRadius:5,
+        boxShadow:6
+         }}
+         >
         <CardContent>
 
           <Avatar

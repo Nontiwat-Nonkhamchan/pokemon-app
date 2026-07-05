@@ -88,7 +88,7 @@ export default function AboutPage() {
 
           <Typography>
             <Link
-              href="https://github.com/Nattaphoom-Saensiriphokh/pokemon-app"
+              href="https://github.com/Nontiwat-Nonkhamchan/pokemon-app"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "#1976d2", fontWeight: 500 }}

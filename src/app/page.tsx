@@ -115,7 +115,18 @@ setPokemonList((prev) => {
 
               return (
                 <Grid size={{ xs: 12, sm: 6, md: 3 }} key={pokemon.name}>
-                  <Card>
+                  <Card
+sx={{
+borderRadius:4,
+transition:"0.3s",
+
+"&:hover":{
+transform:"translateY(-8px)",
+boxShadow:8
+}
+
+}}
+>
                     <CardActionArea href={`/pokemon/${pokemon.name}`}>
                       <CardContent sx={{ textAlign: "center" }}>
                         <Avatar
